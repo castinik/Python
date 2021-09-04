@@ -1,0 +1,204 @@
+
+< < < < Command of MyShell > > > >
+
+Type COMMAND and its [argument] if required
+
+°  °  °  es• >cd namedirectory
+
+Type COMMAND [choice] and its [argument] if required
+
+°  °  °  es• >rmdir -a namedirectory
+
+Type COMMAND and -h for know more about the command
+
+°  °  °  es• >svpath -h
+
+-> COMMAND <-
+> cat    [arg] - to run a program
+> cd     [arg] - to enter in to the digit directory
+> cl ----------- to clear the screen 
+> color  [arg] - to change font's color
+> cp     [arg] - to copy a file
+> echo   [arg] - set the visualizzation of
+.  .  .  .  .  . the current path
+> ex  ---------- to close the shell
+> h or help  --- to visualize this page
+> ip     [arg] - to get net information
+> ls     [arg] - to list the current directory
+> mkdir  [arg] - to make new directory
+> mvitem [arg] - to move file or directory
+> mvt    [arg] - to change path directory
+> file   [cmd] - to manipulate files
+> rmdir  [arg] - to remove a directory
+> rmfile [arg] - to remove a file
+> svpath [arg] - to save the current path
+.  .  .  .  .  . as a word and call it by
+.  .  .  .  .  . command 'cd'
+> src    [arg] - to search a file or directory
+> pwd  --------- to visualize the
+.  .  .  .  .  . current path 
+
+------------------------------------------------------
+#eoa001#
+> file [choice] [argument]
+> file [-w, -r, -a, -h] [argument]
+°  °  °  es• >file -w namefile.txt
+> file [-w] ------ to overwrite or make a file
+> file [-r] ------ to read an existing file
+> file [-a] ------ to append a text to an existing file
+> file [-h] ------ to visualize this page
+
+@ When you are in write or append 
+mode, tipe 'eof' to close the file. @
+
+------------------------------------------------------
+#eoa002#
+> mvitem [file or directory] 
+-- Press enter
+-- Insert the path of destination
+-- Or use rapid path's commands: 
+•    > cwd [directory of destination] (in the
+.  .  .  current path)
+•    > bck [] (move in superior directory)
+•    > bck [directory of destinstion] (in the
+.  .  .  superior directory)
+> mvitem [-h] to visualize this page
+
+------------------------------------------------------
+#eoa003#
+> echo [choice]
+> echo [on, off]
+> echo [on] -- set ON the visualizzation
+.  .  .  of the path
+> echo [off] - set OFF the visualizzation
+.  .  .  of the path
+> echo [-h] to visualize this page
+
+------------------------------------------------------
+#eoa004#
+> ls [choice]
+> ls [-s, -h]
+> ls [] -- to list the current directory.
+> ls [-s] - to list and size the current directory
+.  .  .  (could take some time).
+> ls [-h] ---- to visualize this page
+
+------------------------------------------------------
+#eoa005#
+> color [choice]
+- - available choice:
+.  .  .  default, red, green, yellow, blue, pink
+.  .  .  lightblue, white.
+°  °  °  es• >color red
+> color [-h] to visualize this page.
+
+------------------------------------------------------
+#eoa006#
+> src [argument]
+- the argument could be a word or characters
+. . . included in the name of searched file.
+> src [-h] to visualize this page.
+
+------------------------------------------------------
+#eoa007#
+> cp [file or directory]
+--  Press enter.
+--  Insert the path of destination.
+--  Or use rapid path's commands: 
+•    > cwd [directory of destination] (in 
+.  .  .  the current path).
+•    > bck [] (move in superior directory).
+•    > bck [directory of destinstion] (in 
+.  .  .  the superior directory).
+> cp [-h] to visualize this page.
+
+------------------------------------------------------
+#eoa008#
+> cat [argument] to execute a file.
+°  °  °  es• >cat namefile.py
+> cat [program] to run a program.
+°  °  °  es• >cat python
+> cat [-h] to visualize this page.
+
+------------------------------------------------------
+#eoa009#
+> rmdir [choice] [directory]
+> rmdir [-a , -h] [directory]
+> rmdir -a [directory] to remove a 
+.  .  .  directory not empty.
+> rmdir [directory] to remove a 
+.  .  .  directory empty.
+°  °  °  es•>rmdir -a directory
+> rmdir [-h] to visualize this page.
+
+------------------------------------------------------
+#eoa010#
+@ 'svpath' should be used in conjunction with the 'cd' command. @
+°  °  °  es• > (once the path has been saved
+.  .  .  .  in the argument using svpath)
+.  .  .  .     • >cd --argument
+
+> svpath [choice] [argument]
+> svpath [-s, -rm, -d, -ls, -lsp, -h]
+> svpath [argument] to temporarily 
+.  .  .  store the current path as a given
+.  .  .  argument (as you want).
+°  °  °  es • > svpath home
+> svpath [-s] [argument] to permanently
+.  .  .  store the current path as a given
+.  .  .  argument (the path is saved in a
+.  .  .  file).
+°  °  °  es• > svpath -s home
+> svpath [-rm] [argument] to remove the
+.  .  .  permanent path associated with
+.  .  .  the argument.
+> svpath [-d] [argument] to delete the
+.  .  .  temporary path associated whit
+.  .  .  the argument.
+> svpath [-lsp] to list the permanent 
+.  .  .  saved path.
+> svpath [-ls] to list the temporary 
+.  .  .  saved path.
+> svpath [-h] to visualize this page.
+
+------------------------------------------------------
+#eoa011#
+> cd [argument or choice]
+> cd [argument, .., --argument, -h]
+> cd [argument] to change directory in the
+.  .  .  current working directory.
+> cd [..] to go back in superior directory.
+°  °  °  es• >cd ..
+> cd [--argument] to go directly to the path
+.  .  .  associated with the argument saved
+.  .  .  with the 'svpath' command.
+°  °  °  es• >cd --argument
+> cd [-h] to visualize this page.
+
+-----------------------------------------------------
+#eoa012#
+> ip [choice] [argument]
+> ip [-my, -url, -conf, -h]
+> ip [-my] to view your local ip.
+> ip [-url] [dns] to view the ip's url inserted
+°  °  °  es• >ip -url google.com
+> ip [-conf] [choice and/or argument] to obtain
+.  .  .  information or change parameters of
+.  .  .  your internet intrfaces.
+-  -  -> ip -conf [] to view informatio of net
+.  .  .  interfaces.
+-  -  -> ip -conf [hwinfo] to view MAC.
+°  °  °  °  es• >ip -conf hwinfo
+-  -  -> ip -conf [--help] for more datiled
+.  .  .  information.
+> ip [-h] to visualize this page.
+
+-----------------------------------------------------
+#eoa013#
+> mvt [path, -h]
+> mvt [path]
+°  °  °  °  es• >mvt /data/files/directory
+> mvt [-h] to visualize this page.
+
+-----------------------------------------------------
+#eoa014#
