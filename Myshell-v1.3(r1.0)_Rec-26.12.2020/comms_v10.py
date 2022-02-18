@@ -7,7 +7,7 @@ import os, sys, shutil
 import subprocess as sub
 import suphelp_v10 as shelp
 
-path_file = 'C:\Users\Utente\Documents\Programmazione\Python\MyShell\Myshell-v1.3(r1.0)_Rec-26.12.2020/log/svpath.txt'
+path_file = ''
 
 
 def mvt(argument):
