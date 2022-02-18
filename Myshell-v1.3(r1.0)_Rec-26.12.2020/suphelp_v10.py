@@ -24,7 +24,7 @@ commands = {'stdhelp' : '#eoa001#',
 'ip' : '#eoa012#eoa013#',
 'mvt' : '#eoa013#eoa014#'}
 
-path_file = 'C:\Users\Utente\Documents\Programmazione\Python\MyShell\Myshell-v1.3(r1.0)_Rec-26.12.2020/log/help.txt'
+path_file = ''
 
 
 def help(argument = 'stdhelp'): 
